@@ -1,0 +1,7 @@
+variables:
+  EDITOR: code
+actions:
+  e:
+    description: Edit this menu
+    type: shell
+    command: "{EDITOR} {HERE}"
